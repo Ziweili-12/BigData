@@ -1,4 +1,4 @@
-# Group 10 Project -- UK Met Office Global Weather Data for COVID-19 Analysis
+# Final Project -- UK Met Office Global Weather Data for COVID-19 Analysis
 
 **Members**: Ziwei Li, Tian Tian, Xiang Fan, Sean Fan
 
