@@ -1,0 +1,3 @@
+After adding instances, the job runs much more faster than precious conditions. 
+But I noticed that the number of splits is still 31.
+And the number of files is still 4, including "_SUCCESS","part-00000","part-00001","part-00002".

@@ -1,0 +1,17 @@
+{
+  "accountId" : "193071675489",
+  "architecture" : "x86_64",
+  "availabilityZone" : "us-east-1e",
+  "billingProducts" : null,
+  "devpayProductCodes" : null,
+  "marketplaceProductCodes" : null,
+  "imageId" : "ami-0323c3dd2da7fb37d",
+  "instanceId" : "i-02910fca5778ae01e",
+  "instanceType" : "t2.micro",
+  "kernelId" : null,
+  "pendingTime" : "2020-05-29T17:55:46Z",
+  "privateIp" : "172.31.52.15",
+  "ramdiskId" : null,
+  "region" : "us-east-1",
+  "version" : "2017-09-30"
+}

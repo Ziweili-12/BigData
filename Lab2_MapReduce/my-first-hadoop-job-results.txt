@@ -1,0 +1,12 @@
+20/06/03 23:31:38 INFO s3n.S3NativeFileSystem: Opening 's3://ziwei-bigdata/shakespearewordcount/part-r-00000' for reading
+"'Tis	1
+"Amen,"	1
+"Brutus"	1
+"Caesar"?	1
+"Come	1
+"Fear	2
+"Fly,	1
+"Gentle	1
+"Here	1
+"I	4
+cat: Unable to write to output stream.

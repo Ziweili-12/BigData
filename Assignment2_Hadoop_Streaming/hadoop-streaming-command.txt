@@ -1,0 +1,5 @@
+hadoop jar /usr/lib/hadoop/hadoop-streaming.jar \
+-Dstream.non.zero.exit.is.failure=false \
+-input s3://bigdatateaching/quazyilx/quazyilx2.txt \
+-output bigdata-assignment2 \
+-mapper "/bin/grep \"fnard:-1 fnok:-1 cark:-1 gnuck:-1\""

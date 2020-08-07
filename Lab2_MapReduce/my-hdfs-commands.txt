@@ -1,0 +1,4 @@
+hadoop fs -cp s3://bigdatateaching/shakespeare/100-0.txt s3://ziwei-bigdata/
+
+hadoop fs -cp s3://bigdatateaching/shakespeare/100-0.txt ./
+
