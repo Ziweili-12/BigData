@@ -1,41 +1,5 @@
 # Assignment - Hadoop Streaming
 
-## Cluster Setup
-
-Create an EMR cluster with **_Advanced Options_** and the following configuration:
-
-* Select `emr-5.23.0` from the drop-down
-* **Click check-boxes for these applications only**: Hadoop 2.8.5
-* Click Next
-* Edit the instance types and set 1 master and 4 core of m4.large 
-* Click Next
-* Give the cluster a name, and you can uncheck logging, debugging and termination protection enabled
-* Click Next
-* Select your key-pair
-* Click "Create Cluster"
-
-Once the cluster is in "Waiting" mode (should only take a few minutes), ssh into the master **with agent forwarding:**
-
-```
-ssh-add
-ssh -A hadoop@...
-```
-
-**Run the following commands, making sure to replace the values for `[[your-name]], [[your-email]] and [[your-assignment-repository]]` for the appropriate values.**
-
-```
-sudo yum install -y git
-git config --global user.name [[your name]]
-git config --global user.email [[your email]]
-git clone [[your-assignment-repository]]
-cd [[repository-directory]]
-```
-### Reminders
-
-* all files must be within the repository directory otherwise git will not see them.
-* commit and push back to GitHub as you are doing your work. **If you terminate the cluster and you did not push to GitHub, you will lose all your work.**
-* data in the cluster's HDFS will be lost when the cluster terminates. If you want to keep data, store it in S3.
-
 
 ## Provide the Master Node and Cluster Metadata
 
@@ -134,18 +98,6 @@ The files to be committed to the repository for this assignment are:
 * `reducer.py`
 * `logfile-counts.csv`
 
-
-## Grading Rubric
-
--   We will look at the results files and/or scripts. If the result files are exactly what is expected, in the proper format, etc., we may run your scripts to make sure they produce the output. If everything works, you will get full credit for the problem.
--   If the submitted results are not what is expected, we will look at and run your code and provide partial credit wherever possible and applicable.
--   Points **will** be deducted for each the following reasons:
-    -   Instructions are not followed
-    -   Output is not in expected format (not sorted, missing fields, wrong delimiter, unusual characters in the files, etc.)
-    -   There are more files in your repository than need to be
-    -   There are additional lines in the results files (whether empty or not)
-    -   Files in repository are not the requested filename
-    -   Homework is late 
 
 
 	
