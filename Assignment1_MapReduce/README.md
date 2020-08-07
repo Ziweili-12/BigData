@@ -2,36 +2,6 @@
 
 You will be performing several Python exercises in this assignment to build and/or reinforce skills that will be used later in the semester.
 
-## Instructions
-
-You will be doing all the exercises on your Linux Virtual Machine running in the cloud.
-
-1. If you don't already have an EC2 instance running (you may since you started one during the [setup lab](https://github.com/bigdatateaching/lab-setting-up#aws-setup)), start a virtual machine with the Miniconda Python image (refer to the lab). You will be doing all your work on your instance on the cloud. The `t2.micro` is enough for this assignment.
-2. `ssh` to your virtual machine using _ssh agent forwarding_ as described in the [setup lab](https://github.com/bigdatateaching/lab-setting-up#aws-setup). 
-3. Once you connect to your virtual machine, install git (if using a new virtual machine)
-
-	```
-	$ sudo yum install -y git
-	```
-4. Configure git (this needs to be done every time you install git on a new resource)
-
-	```
-	$ git config --global user.name "your-github-username"
-	$ git config --global user.email "your-gu-email"
-	```
-	
-5. Clone this repository to your virtual machine
-
-	```
-	$ git clone ...
-	```
-	
-6. Change directory into the repository
-7. Do you work. Remember, all files must be within the repository directory otherwise git will not see them.
-
-* You will be working with Python 3 core libraries and will not need to install any additional libraries.
-* Remember to commit and push back to GitHub as you are doing your work. **If you terminate the instance and you did not push to GitHub, you will lose all your work.**
-
 
 ## Provide your instance metadata
 
@@ -112,18 +82,5 @@ The files to be committed to the repository for this assignment are:
 * `missing.py`
 * `words.py`
 * `babynames.py`
-
-
-## Grading Rubric
-
--   We will look at the results files and/or scripts. If the result files are exactly what is expected, in the proper format, etc., we may run your scripts to make sure they produce the output. If everything works, you will get full credit for the problem.
--   If the submitted results are not what is expected, we will look at and run your code and provide partial credit wherever possible and applicable.
--   Points **will** be deducted for each the following reasons:
-    -   Instructions are not followed
-    -   Output is not in expected format (not sorted, missing fields, wrong delimiter, unusual characters in the files, etc.)
-    -   There are more files in your repository than need to be
-    -   There are additional lines in the results files (whether empty or not)
-    -   Files in repository are not the requested filename
-    -   Homework is late (unless you are using a late day and provide notice in advance)
 
 
